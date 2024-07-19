@@ -1,0 +1,17 @@
+{
+  "name": "purgecss-preflight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js -o ./example/report.txt -c ./example/purgecss-config.js -b ./example"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "purgecss": "^6.0.0"
+  }
+}
